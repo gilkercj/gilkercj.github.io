@@ -1,0 +1,156 @@
+body {
+    background-color: antiquewhite;
+    color: #000305;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    text-align: left;
+    
+
+}
+
+.body {
+    margin: 0 auto;
+
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+.content-wrapper {
+    margin: 0 auto;
+    width: 960px;
+}
+
+/*-------------------
+    Header Styling
+-------------------*/
+
+.main-header-wrapper {
+
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+
+}
+.main-header {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:  #4aaaa5;
+}
+
+#name {
+    margin: 0px 0px;
+    padding: 24px 0px 24px 0px;
+    width: 32%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    float: left;
+
+}
+
+#nav-bar {    
+    text-align: center;
+    width: 270px;
+    float: right;
+    padding: 15px 0px;
+    margin: 0px 20px 0px 0px;
+}
+
+
+#nav-bar ul li {
+    text-align: left;
+    display: inline-block;
+    padding: 20px 0px;
+    margin: 0px 10px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/*--------------------------
+    Main Section Styling
+--------------------------*/
+
+.main-content {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    width: 650px;
+    float: left;
+    margin: 40px 0px;
+    
+
+}
+
+.main-content h1 {
+    border-bottom: 2px solid #dddddd;
+    width: 80%;
+    padding: 20px;
+    margin: 20px 40px;
+    text-align: left;
+}
+
+.main-content img {
+    margin: 20px 10px;
+}
+
+.main-content p {
+    display: block;
+    float: right;
+    font-size: 14px;
+    line-height: 2;
+    margin: 2%;
+    width: 60%;
+    color: #777777;
+}
+
+/*-------------------
+    Aside Styling
+-------------------*/
+
+.aside-content {
+    width: 270px;
+    float: right;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    height: 200px;
+    margin: 40px 0px;
+}
+
+.aside-content h2 {
+    text-align: center;
+}
+
+/*--------------------
+    Footer Styling
+--------------------*/
+
+.clearfix {
+    clear: both;
+}
+
+footer {
+
+    text-align: center;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 596px;
+}
+
+
+
+.portfolio-image-wrapper {
+    margin: 20px 20px;
+}
